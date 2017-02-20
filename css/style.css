@@ -18,6 +18,8 @@ body{
 
 .child2{
 	position: absolute;
+	margin-left: 80px;
+	margin-top: 50px;
 }
 
 .progress{

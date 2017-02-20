@@ -25,7 +25,7 @@
 ##Reference
 
 1. [Canvas JS reference][1]
-2. [Bootstrap buttons adjust][2].
+2. [Bootstrap buttons adjust Stack Overflow question][2].
 3. [Twitter's Bootstrap][3]
 4. [Color in google search][4]
 

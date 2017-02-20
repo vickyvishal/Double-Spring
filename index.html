@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	<script type="text/javascript" src="js/canvasjs.min.js"></script>
+</head>
+  <body>
+	<div class="container">
+		<div class="row">
+			<aside class="col-md-3" style="padding: 0px">
+				<div class="col-md-3" style="background: #152028; height: 900px">
+					<ul class="nav nav-pills nav-stacked">
+						<li role="presentation">
+						<a href="#"><img src="images/gusfring -1.jpg" class="img-circle" id="profile" alt="profilepic" width="40" height="40"/></a>
+						</li>
+						<li role="presentation">
+						<a href="#"><img src="images/gusfring -2.jpg" class="img-circle" id="profile" alt="profilepic" width="40" height="40"/></a>
+						</li>
+						<li role="presentation">
+						<a href="#"><img src="images/gusfring -3.jpg" class="img-circle" id="profile" alt="profilepic" width="40" height="40"/></a>
+						</li>
+						<li role="presentation">
+						<a href="#"><img src="images/gusfring -4.jpg" class="img-circle" id="profile" alt="profilepic" width="40" height="40"/></a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-9" style="background: #2e3d49; color: white; height: 900px">
+					<ul class="nav nav-pills nav-stacked">
+					  <li role="presentation" class="active"><a href="#">Profit</a></li>
+					  <li role="presentation"><a href="#">Explore</a></li>
+					  <li role="presentation"><a href="#">Profile</a></li>
+					  <li role="presentation"><a href="#">Photos</a></li>
+					  <li role="presentation"><a href="#">Videos</a></li>
+					  <li role="presentation"><a href="#">Invite</a></li>
+					  <li role="presentation"><a href="#">Music</a></li>
+					  <li role="presentation"><a href="#">Candidate</a></li>
+					  <li role="presentation"><a href="#">Calender</a></li>
+					</ul>
+					<br>
+					<input type="text" placeholder="search">
+					<br>
+					<div style="margin-top: 20px">
+						<p "style="line-height: 90%; color: #989a9b">Friends</p>
+						<ul class="nav nav-pills nav-stacked">
+						<li role="presentation">
+						<div class="row">
+							<div class="col-md-3">
+								<a href="#"><img src="images/gusfring -2.jpg" class="img-circle" id="profile" alt="profilepic" width="40" height="40"/></a>
+							</div>
+							<div class="col-md-6">
+								<p>Caroline</p>
+								<p>Typing..</p>
+							</div>
+							<div class="col-md-3">
+							</div>
+						</div>
+						</li>
+						<li role="presentation">
+						<div class="row">
+							<div class="col-md-3">
+								<a href="#"><img src="images/gusfring -3.jpg" class="img-circle" id="profile" alt="profilepic" width="40" height="40"/></a>
+							</div>
+							<div class="col-md-6">
+								<p>Claire</p>
+								<p>Designer</p>
+							</div>
+							<div class="col-md-3">
+							</div>
+						</div>
+						</li>
+						<li role="presentation">
+						<div class="row">
+							<div class="col-md-3">
+								<a href="#"><img src="images/gusfring -4.jpg" class="img-circle" id="profile" alt="profilepic" width="40" height="40"/></a>
+							</div>
+							<div class="col-md-6">
+								<p>Lina</p>
+								<p>Sales</p>
+							</div>
+							<div class="col-md-3">
+							</div>
+						</div>
+						</li>
+						<li role="presentation">
+						<div class="row">
+							<div class="col-md-3">
+								<a href="#"><img src="images/gusfring -4.jpg" class="img-circle" id="profile" alt="profilepic" width="40" height="40"/></a>
+							</div>
+							<div class="col-md-6">
+								<p>Jason</p>
+								<p>CTO</p>
+							</div>
+							<div class="col-md-3">
+							</div>
+						</div>
+						</li>
+					</ul>
+					</div>
+				</div>
+			</aside>
+			<section class="col-md-9">
+				<header class="row" style="background: white; padding: 10px">
+					<h3 style="float: left">Your Profit</h3>
+					<div style="float: right">
+						<img src="images/gusfring.jpg" class="img-circle" alt="profilepic" width="40" height="40"/>
+						<h4 style="float: right">Gus Fring</h4>
+					</div>
+				</header>
+				<section class="col-md-8">
+					<article class="row" style="margin: 10px auto">
+						<header class="row">
+							<div class="col-md-6"><h3>Earning History</h3></div>
+							<div class="col-md-6">
+							<ul class="nav nav-pills">
+							  <li role="presentation" class="active"><a href="#">Home</a></li>
+							  <li role="presentation"><a href="#">Profile</a></li>
+							  <li role="presentation"><a href="#">Messages</a></li>
+							</ul>
+							</div>
+						</header>
+						<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+					</article>
+					<br>
+					<article class="row">
+						<div class="col-md-3 text-center">
+							<div style="margin: 0px 5px; background: white; padding: 5px">
+								<h4>3594</h4>
+								<p style="margin: 0px; color: blue">New Orders</p>
+							</div>
+							<div style="margin: 0px 5px; background: #e8eaed">
+								<span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+								<p> 13% increase</p>
+							</div>
+						</div>
+						<div class="col-md-3 text-center">
+							<div style="margin: 0px 5px; background: white; padding: 5px">
+								<h4>105990</h4>
+								<p style="margin: 0px; color: green">Total Sales</p>
+							</div>
+							<div style="margin: 0px 5px; background: #e8eaed">
+							<span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+								<p> 29% increase</p>
+							</div>
+						</div>
+						<div class="col-md-3 text-center">
+							<div style="margin: 0px 5px; background: white; padding: 5px">
+								<h4>$50,890</h4>
+								<p style="margin: 0px; color: yellow">Total Find out</p>
+							</div>
+							<div style="margin: 0px 5px; background: #e8eaed">
+							<span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+								<p> 14% decrease</p>
+							</div>
+						</div>
+						<div class="col-md-3 text-center">
+							<div style="margin: 0px 5px; background: white; padding: 5px">
+								<h4>453</h4>
+								<p style="margin: 0px; color: red">Customers</p>
+							</div>
+							<div style="margin: 0px 5px; background: #e8eaed">
+							<span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+								<p> 5% decrease</p>
+							</div>
+						</div>
+					</article>
+					<article class="row">
+						<table class="table table-striped ">
+							<thead>
+							  <tr>
+								<th>Referrer</th>
+								<th>Views</th>
+								<th>Sales</th>
+								<th>Conversion</th>
+								<th>Total</th>
+							  </tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>note.com</td>
+									<td>54</td>
+									<td>42</td>
+									<td>10.5%</td>
+									<td>550</td>
+								 </tr>
+								 <tr>
+									<td>note.com</td>
+									<td>54</td>
+									<td>42</td>
+									<td>10.5%</td>
+									<td>550</td>
+								 </tr>
+								 <tr>
+									<td>note.com</td>
+									<td>54</td>
+									<td>42</td>
+									<td>10.5%</td>
+									<td>550</td>
+								 </tr>
+								 <tr>
+									<td>note.com</td>
+									<td>54</td>
+									<td>42</td>
+									<td>10.5%</td>
+									<td>550</td>
+								 </tr>
+								 <tr>
+									<td>note.com</td>
+									<td>54</td>
+									<td>42</td>
+									<td>10.5%</td>
+									<td>550</td>
+								 </tr>
+								 <tr>
+									<td>note.com</td>
+									<td>54</td>
+									<td>42</td>
+									<td>10.5%</td>
+									<td>550</td>
+								 </tr>
+								 <tr>
+									<td>note.com</td>
+									<td>54</td>
+									<td>42</td>
+									<td>10.5%</td>
+									<td>550</td>
+								 </tr>
+								 <tr>
+									<td>note.com</td>
+									<td>54</td>
+									<td>42</td>
+									<td>10.5%</td>
+									<td>550</td>
+								 </tr>
+							</tbody>
+						  </table>
+					</article>
+				</section>
+				<aside class="col-md-4" style="margin-top: 10px">
+					<div class="row" style="color: #989a9b; padding: 10px; background: white">
+						<div>
+							<img src="images/profileback.jpg" alt="background pic" style="width: 260px; height: 120px"/>
+							<!--<img src="images/gusfring.jpg" class="child2 img-circle" alt="background pic" style="width: 100px; height: 100px"/>-->
+						</div>
+						<div class="text-center">
+							<h3 style="font-weight: bold; color: black">Gus Fring</h3>
+							<p>Beta Tester<p>
+						</div>
+						<hr>
+						<div>
+							<p style="line-height: 90%">Email</p>
+							<p style="font-weight: bold; color: black; line-height: 90%">gusfring_friedchicken@gmail.com</p>
+						</div>
+						<br>
+						<div>
+							<p style="line-height: 90%">Mobile</p>
+							<p style="font-weight: bold; color: black; line-height: 90%">9876543210</p>
+						</div>
+						<br>
+						<div>
+							<p style="line-height: 90%">Skill Level</p>
+							<p style="font-weight: bold; color: black; line-height: 90%">over 900+</p>
+						</div>
+						<br>
+						<div>
+							<p style="font-weight: lighter">Paid Level</p>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								  <span class="sr-only">70% Complete</span>
+								</div>
+							</div>
+						</div>
+						<div>
+							<p style="font-weight: lighter">Bio</p>
+							<p style="color: #2e3d49">Gustavo "Gus" Fring is a fictional character in Breaking Bad and Better Call Saul, played by Giancarlo Esposito.</p>
+						</div>
+						<br>
+						<p style="font-weight: lighter">Skills</p>
+						<div class= "row">
+							<div class="col-md-4" style="margin: 2px">
+								<button type="button" class="btn btn-primary btn-xs">Fried Chicken</button>
+							</div>
+							<div class="col-md-4" style="margin: 2px">
+								<button type="button" class="btn btn-success btn-xs">Business</button>
+							</div>
+							<div class="col-md-4">
+								<button type="button" class="btn btn-info btn-xs">Blue Stuff</button>
+							</div>
+							<div class="col-md-4">
+								<button type="button" class="btn btn-warning btn-xs">Laundary</button>
+							</div>
+						</div>
+					</div>
+					<footer class="row" style="margin-top: 10px; background: white; color: #989a9b; padding: 10px">
+						<p style="line-height: 90%">Upcomming events with Gus</p>
+						<div class="row">
+							<div class="col-md-7">
+								<p style="font-weight: bold; color: black; line-height: 90%">Fried Chicken</p>
+								<p style="line-height: 90%">January 13th</p>
+							</div>
+							<div class="col-md-5">
+								<button type="button" class="btn btn-primary btn-xs">Fried Chicken</button>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-7">
+								<p style="font-weight: bold; color: black; line-height: 90%">Laundary</p>
+								<p style="line-height: 90%">January 19th</p>
+							</div>
+							<div class="col-md-5">
+								<button type="button" class="btn btn-warning btn-xs">Fried Chicken</button>
+							</div>
+						</div>
+					</footer>
+				</aside>
+			</section>
+		</div>
+	</div>
+    
+</body>
+
+</html>

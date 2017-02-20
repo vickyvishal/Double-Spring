@@ -1,0 +1,25 @@
+body{
+	background-color: #e3e4e5 !important;
+}
+
+#profile{
+	margin-top: 10px;
+}
+
+.parent{
+	background-image: url("images/profileback.jpg");
+	width: 250px;
+	height: 150px;
+}
+
+.child1{
+	position: absolute;
+}
+
+.child2{
+	position: absolute;
+}
+
+.progress{
+	height: 10px !important;
+}

@@ -27,7 +27,9 @@
 1. [Canvas JS reference][1]
 2. [Bootstrap buttons adjust][2].
 3. [Twitter's Bootstrap][3]
+4. [Color in google search][4]
 
 [1]: http://canvasjs.com/html5-javascript-line-chart/
 [2]: http://stackoverflow.com/questions/23414333/thinner-bootstrap-progress-bars
 [3]: http://getbootstrap.com/css/#buttons
+[4]: https://www.google.co.in/webhp?sourceid=chrome-instant&rlz=1C1MIMX_enIN722IN722&ion=1&espv=2&ie=UTF-8#safe=off&q=2e3d49+color

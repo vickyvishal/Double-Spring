@@ -23,6 +23,11 @@
 8. Now load up http://localhost/info.php
 
 ##Reference
-http://canvasjs.com/html5-javascript-line-chart/
-http://stackoverflow.com/questions/23414333/thinner-bootstrap-progress-bars
-http://getbootstrap.com/css/#buttons
+
+1. [Canvas JS reference][1]
+2. [Bootstrap buttons adjust][2].
+3. [Twitter's Bootstrap][3]
+
+[1]: http://canvasjs.com/html5-javascript-line-chart/
+[2]: http://stackoverflow.com/questions/23414333/thinner-bootstrap-progress-bars
+[3]: http://getbootstrap.com/css/#buttons

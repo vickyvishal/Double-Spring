@@ -6,12 +6,6 @@ body{
 	margin-top: 10px;
 }
 
-.parent{
-	background-image: url("images/profileback.jpg");
-	width: 250px;
-	height: 150px;
-}
-
 .child1{
 	position: absolute;
 }
@@ -24,4 +18,25 @@ body{
 
 .progress{
 	height: 10px !important;
+}
+
+#text5
+{
+background: url(search-dark.png) no-repeat 10px 6px #2e3d49;
+color: #ccc;
+width: 180px;
+text-align: center;
+padding: 5px;
+margin-left: 10px;
+border-radius: 20px;
+box-shadow: 0 1px 0 #ccc inset;
+transition:500ms all ease;
+}
+#text5:hover
+{
+width:180px;
+}
+
+#sidenav{
+	color: white !important;
 }
